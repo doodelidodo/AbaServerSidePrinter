@@ -1,11 +1,5 @@
 # AbaServerSidePrinter
- Da wir mit Abacus Server Side Printing verwenden möchten, haben ich dieses Script geschrieben. Es ist ein eifacher Watcher auf einem Ordner der konfiguriert werden kann.
- Der Watcher checkt in diesem Ordner, ob es eine neue PDF Datei gibt. Wenn ja checkt er, ob es nicht in einem Ignore Folder drin ist und druckt es dann auf dem Drucker aus, der in der Config definiert wurde. Das ganze kann als Windows Dienst registriert werden.
-
- Die Idee ist es, pro Drucker ein Unterordner zu machen und diesen dann in der Config so zu definieren. So muss man aus dem Abacus nur noch das PDF im richtigen Ordner ablegen, um es auf dem richtigen Drucker zu printen.
-
- Ist der Druck erfolgreich, wird es in diesem Ordner in den Ordner 'archiv' verschoben. 
- Ist der Druck NICHT erfolgreich, wird es in den Ordner 'error' verschoben
+Unser Abacus Server Side Printing Skript ermöglicht eine effiziente Druckautomatisierung. Der Watcher überwacht einen konfigurierbaren Ordner auf neue PDF-Dateien. Nach Prüfung auf relevante Unterordner druckt das Skript die Dateien auf den definierten Druckern. Erfolgreich gedruckte Dateien werden in den "Archiv"-Ordner verschoben, während fehlerhafte Ausdrucke in den "Error"-Ordner wandern. Dieses Skript kann als Windows-Dienst registriert werden, um kontinuierlichen Betrieb zu gewährleisten. Eine elegante Lösung für effizientes und problemloses Drucken.
 
 
 ## Das Config File 
