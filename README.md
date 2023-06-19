@@ -19,3 +19,6 @@ printers = [
 
 ## Printer Liste
 Wenn man nicht weiss, wie die Drucker genau heissen, kann man mit dem Script **druckerListe.py** alle Drucker in der Console ausgeben lassen, die mit dem aktuellen PC verbunden sind.
+
+## Logging
+In einem fix definierten Ordner werden die Logs pro Tag für 7 Tage gespeichert. Man sieht welche Files gedruckt und verschoben werden konnten und welche in Error's gelaufen sind.
