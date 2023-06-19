@@ -4,8 +4,8 @@ Unser Abacus Server Side Printing Skript ermöglicht eine effiziente Druckautoma
 
 ## Das Config File 
 
-**watchFolder** = Welcher Hauptordner soll überwacht werden
-**ignoreFolders** = jeder Ordner der so heisst, wird nicht überwacht. Standardmässig die error und archiv Ordner (wichtig, da das Ganze ansonsten in einen Endlosloop läuft)
+**watchFolder** = Welcher Hauptordner soll überwacht werden <br>
+**ignoreFolders** = jeder Ordner der so heisst, wird nicht überwacht. Standardmässig die error und archiv Ordner (wichtig, da das Ganze ansonsten in einen Endlosloop läuft) <br>
 **printers** = pro Ordner braucht es einen Eintrag. Hier wird definiert, auf welchem Drucker das File dann geprintet werden muss. 
 
 ```watchFolder = C:/Users/medo/Documents/coding/AbaServPrinting/Test
