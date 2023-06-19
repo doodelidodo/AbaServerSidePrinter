@@ -18,4 +18,4 @@ printers = [
 ```
 
 ## Printer Liste
-Wenn man nicht weiss, wie die Drucker genau heissen, kann mit dem Script **druckerListe** alle Drucker in der Console ausgeben lassen, die mit dem aktuellen PC verbunden sind.
+Wenn man nicht weiss, wie die Drucker genau heissen, kann man mit dem Script **druckerListe.py** alle Drucker in der Console ausgeben lassen, die mit dem aktuellen PC verbunden sind.
